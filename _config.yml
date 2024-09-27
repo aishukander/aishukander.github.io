@@ -9,11 +9,7 @@ theme: jekyll-theme-chirpy
 lang: zh-TW
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-<<<<<<< HEAD
-timezone:
-=======
 timezone: Asia/Taipei
->>>>>>> b3b7188d401f3acfd606a0e5744f5494e6c81cff
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
