@@ -121,8 +121,8 @@ comments:
   giscus:
     repo: aishukander/aishukander.github.io
     repo_id: R_kgDOM4JATw
-    category:
-    category_id:
+    category: General
+    category_id: DIC_kwDOM4JAT84Ci3g5
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
