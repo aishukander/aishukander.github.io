@@ -120,7 +120,7 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: aishukander/aishukander.github.io
-    repo_id:
+    repo_id: R_kgDOM4JATw
     category:
     category_id:
     mapping: # optional, default to 'pathname'
