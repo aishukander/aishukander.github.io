@@ -14,8 +14,7 @@ sudo pacman -Syyu
 sudo pacman -S nvidia-dkms nvidia-utils linux-headers
 ```
 
-<span style="font-weight: bold; font-size: 1.2em;">重開機後</span> 使用lspci來確定驅動安裝完成。 <br>
-
+在 <span style="font-weight: bold; font-size: 1.2em;">重開機後</span> 使用lspci來確定驅動安裝完成。 <br>
 ```bash
 sudo lspci -k | grep -A 2 -i "NVIDIA"
 ```
