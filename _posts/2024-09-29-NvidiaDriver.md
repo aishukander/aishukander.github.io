@@ -21,7 +21,7 @@ sudo lspci -k | grep -A 2 -i "NVIDIA"
 
 出現 <span style="font-weight: bold; font-size: 1.2em;">Kernel driver in use: nvidia</span> 代表驅動安裝成功。 <br>
 
-![Desktop View](/assets/img/2024-09-29-NvidiaDriver/lspci.png){: width="972" height="589" }
+![Desktop View](/assets/img/2024-09-29-NvidiaDriver/Lspci.png){: width="972" height="589" }
 
 ## nvtop安裝
 如果想要查看顯卡使用率可以安裝該程式。
@@ -31,5 +31,5 @@ sudo pacman -S nvtop
 
 安裝完成後可於終端機輸入 <span style="font-weight: bold; font-size: 1.2em;">nvtop</span> 來啟動該程式。 <br>
 
-![Desktop View](/assets/img/2024-09-29-NvidiaDriver/nvtop.png){: width="972" height="589" }
+![Desktop View](/assets/img/2024-09-29-NvidiaDriver/Nvtop.png){: width="972" height="589" }
 _按下ctrl+c即可退出nvtop_
