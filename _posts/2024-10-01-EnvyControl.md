@@ -47,7 +47,7 @@ yay -S plasma6-applets-optimus-gpu-switcher-git
 ```
 
 ## 使用[Discove](https://apps.kde.org/zh-tw/discover/)安裝
-啟動Discove後 -> Plasma Addons -> Plasma Widgets 然後找到Optimus GPU Switcher for KDE 6。 <br>
+啟動Discove後 > Plasma Addons > Plasma Widgets 然後找到Optimus GPU Switcher for KDE 6。 <br>
 
 ## Optimus GPU Switcher的切換方式
 工具列右下角應該會出現代表GPU廠家的符號
