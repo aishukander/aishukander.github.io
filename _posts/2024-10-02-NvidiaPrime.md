@@ -31,14 +31,14 @@ prime-run flatpak run org.prismlauncher.PrismLauncher
 ```
 ## 在Plasma桌面的程式連結指定
 在桌面找到要設定的程式的連結 > 右鍵 > 屬性 > 應用程式 > 在環境變數輸入該環境變數。 <br>
-```bash
+```text
 __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia __VK_LAYER_NV_optimus="NVIDIA_only"
 ```
 ![Desktop View](/assets/img/2024-10-02-NvidiaPrime/PlasmaEnv.png)
 
 ### 為Steam內特定遊戲指定
 在Steam找到要設定的遊戲 > 右鍵 > 內容 > 在啟動參數輸入該參數 <br>
-```bash
+```text
 __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia __VK_LAYER_NV_optimus="NVIDIA_only" %command%
 ```
 
