@@ -7,8 +7,9 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: bluesky
+  icon: "fa-brands fa-bluesky"
+  url: "https://bsky.app/profile/aishukander.bsky.social" # Fill with your Bluesky profile link
 
 - type: stack-overflow
   icon: "fab fa-stack-overflow"
@@ -27,10 +28,8 @@
 #   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Linkedin homepage
 #
-# - type: bluesky
-#   icon: 'fa-brands fa-bluesky'
-#   url: ''                   # Fill with your Bluesky profile link
-#
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
 # - type: reddit
 #   icon: 'fa-brands fa-reddit'
 #   url: ''                   # Fill with your Reddit profile link
