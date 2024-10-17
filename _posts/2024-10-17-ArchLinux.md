@@ -11,7 +11,7 @@ description: 安裝ArchLinux系統。
 先到[ArchLinux](https://archlinux.org/download/)官網下載iso檔。 <br>
 下載時可以選擇使用磁力連結或直接下載，直接下載的話可以選擇日本的載點，距離比較近（作者人在台灣）。 <br>
 
-![Desktop View](/assets/img/2024-10-17-ArchLinux/ArchLinuxWorldwide.png)
+![Desktop View](/assets/img/2024-10-17-ArchLinux/Worldwide.png)
 
 下載完成後可用SHA256驗證檔案正確性(在Checksums and signatures下面一些的位置)。 <br>
 
@@ -32,18 +32,18 @@ archinstall
 ## Locales
 Locales內的可以設定鍵盤、系統語言、編碼類型。 <br>
 
-![Desktop View](/assets/img/2024-10-17-ArchLinux/ArchLinuxLocales.png)
+![Desktop View](/assets/img/2024-10-17-ArchLinux/Locales.png)
 
 ## Disk configuration
 Disk Configuration可以設定硬碟分割，沒特別需求的話可以依照教學直接使用一整顆硬碟。 <br>
 
-![Desktop View](/assets/img/2024-10-17-ArchLinux/ArchLinuxDisk1.png)
+![Desktop View](/assets/img/2024-10-17-ArchLinux/Disk1.png)
 
-![Desktop View](/assets/img/2024-10-17-ArchLinux/ArchLinuxDisk2.png)
+![Desktop View](/assets/img/2024-10-17-ArchLinux/Disk2.png)
 
-![Desktop View](/assets/img/2024-10-17-ArchLinux/ArchLinuxDisk3.png)
+![Desktop View](/assets/img/2024-10-17-ArchLinux/Disk3.png)
 
-![Desktop View](/assets/img/2024-10-17-ArchLinux/ArchLinuxDisk4.png)
+![Desktop View](/assets/img/2024-10-17-ArchLinux/Disk4.png)
 
 完成後點擊<- Back就可以返回主畫面。 <br>
 
@@ -59,13 +59,47 @@ Disk Configuration可以設定硬碟分割，沒特別需求的話可以依照�
 ## User account
 你的使用者帳號設定，建議主帳號在第二張圖那裡選擇yes。 <br>
 
-![Desktop View](/assets/img/2024-10-17-ArchLinux/ArchLinuxUser1.png)
+![Desktop View](/assets/img/2024-10-17-ArchLinux/User1.png)
 
-![Desktop View](/assets/img/2024-10-17-ArchLinux/ArchLinuxUser2.png)
+![Desktop View](/assets/img/2024-10-17-ArchLinux/User2.png)
 
-![Desktop View](/assets/img/2024-10-17-ArchLinux/ArchLinuxUser3.png)
+![Desktop View](/assets/img/2024-10-17-ArchLinux/User3.png)
+
+完成後點擊Confirm and exit就可以返回主畫面。 <br>
 
 ## Profile
 如果要安裝Plasma作為電腦的桌面環境可以依照教學操作。 <br>
 
-# 未完後補
+![Desktop View](/assets/img/2024-10-17-ArchLinux/Profile1.png)
+
+![Desktop View](/assets/img/2024-10-17-ArchLinux/Profile2.png)
+
+![Desktop View](/assets/img/2024-10-17-ArchLinux/Profile3.png)
+
+## Audio
+建議選擇Pipewire，Pipewire較新功能也較完全(像是支援aptx協定之類的)。 <br>
+
+![Desktop View](/assets/img/2024-10-17-ArchLinux/Pipewire.png)
+
+## Additional packagers
+輸入noto-fonts-cjk去安裝支援中文的字型(不然進Plasma會出現一堆方框)，Enter後系統會自動尋找noto-fonts-cjk並在系統開始安裝時一併安裝。 <br>
+
+![Desktop View](/assets/img/2024-10-17-ArchLinux/AdditionalPackagers.png)
+
+## Network configuration
+如果有要使用Plasma的話記得選Use NetworkManager。 <br>
+
+![Desktop View](/assets/img/2024-10-17-ArchLinux/NetworkManager.png)
+
+## Timezone
+選擇你所在地的時區就好 <br>
+
+## 開始安裝
+全部選項完成後點擊Install進行安裝，第一下Enter會顯示你的安裝配置，第二次Enter後會倒數5秒，接下來就等電腦安裝完成。 <br>
+安裝完成後會彈出以下畫面，<span style="font-weight: bold; font-size: 1.2em;">記得選NO</span>，不然重開機後不會進到Plasma內。 <br>
+
+![Desktop View](/assets/img/2024-10-17-ArchLinux/LastStep.png)
+
+# 結尾
+剛安裝好系統進到Plasma時你一定會想說怎麼那麼醜，此時就是進設定調設定的快樂時間了，但那是之後文章的部分了。 <br>
+如果還是不知道怎麼裝ArchLinux的話可以去試試看[Endeavouros](https://endeavouros.com/)，Endeavouros簡單來說就是有GUI安裝介面的ArchLinux而已。 <br>
