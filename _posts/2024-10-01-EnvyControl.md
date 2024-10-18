@@ -2,7 +2,7 @@
 title: EnvyControl
 date: 2024-10-01 12:35 +0800
 categories: [教學]
-tags: [Linux, GPU, Nvidia, 驅動, 程式]
+tags: [Linux, ArchLinux, GPU, Nvidia, 驅動, 程式]
 description: 在ArchLinux上使用EnvyControl來調整GPU模式
 ---
 

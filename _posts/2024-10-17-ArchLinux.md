@@ -2,7 +2,7 @@
 title: ArchLinux
 date: 2024-10-17 14:06 +0800
 categories: [教學]
-tags: [Linux, 系統, KDE]
+tags: [Linux, ArchLinux, 系統, KDE]
 description: 安裝ArchLinux系統。
 ---
 

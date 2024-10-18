@@ -2,7 +2,7 @@
 title: Nvidia驅動
 date: 2024-09-29 12:56 +0800
 categories: [教學]
-tags: [Linux, GPU, Nvidia, 驅動, 程式]
+tags: [Linux, ArchLinux, GPU, Nvidia, 驅動, 程式]
 description: 在ArchLinux上安裝nvidia驅動
 ---
 
