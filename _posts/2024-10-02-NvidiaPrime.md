@@ -2,7 +2,7 @@
 title: Nvidia Prime
 date: 2024-10-02 21:14 +0800
 categories: [教學]
-tags: [Linux, 程式, GPU]
+tags: [Linux, GPU, Nvidia, 驅動, 程式]
 description: 在ArchLinux上利用Nvidia Prime指定使用的GPU
 ---
 
