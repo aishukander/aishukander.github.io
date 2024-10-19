@@ -17,7 +17,7 @@ yay -S envycontrol
 ```
 
 # 切換方式
-<span style="font-weight: bold; font-size: 1.2em;">切換完成後記得重開機一下。</span> <br>
+ <span style="font-weight: bold; font-size: 1.2em;">切換完成後記得重開機一下。</span> <br>
 
 ## 使用終端機切換
 切換至混合 <br>

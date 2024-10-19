@@ -2,7 +2,7 @@
 title: ArchLinux
 date: 2024-10-17 14:06 +0800
 categories: [教學]
-tags: [Linux, ArchLinux, 系統, KDE]
+tags: [Linux, ArchLinux, 系統, KDE, Plasma]
 description: 安裝ArchLinux系統。
 ---
 
@@ -96,7 +96,7 @@ Disk Configuration可以設定硬碟分割，沒特別需求的話可以依照�
 
 ## 開始安裝
 全部選項完成後點擊Install進行安裝，第一下Enter會顯示你的安裝配置，第二次Enter後會倒數5秒，接下來就等電腦安裝完成。 <br>
-安裝完成後會彈出以下畫面，<span style="font-weight: bold; font-size: 1.2em;">記得選NO</span>，不然重開機後不會進到Plasma內。 <br>
+安裝完成後會彈出以下畫面， <span style="font-weight: bold; font-size: 1.2em;">記得選NO</span> ，不然重開機後不會進到Plasma內。 <br>
 
 ![Desktop View](/assets/img/2024-10-17-ArchLinux/LastStep.png)
 
