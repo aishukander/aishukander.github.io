@@ -100,6 +100,19 @@ Disk Configuration可以設定硬碟分割，沒特別需求的話可以依照�
 
 ![Desktop View](/assets/img/2024-10-17-ArchLinux/LastStep.png)
 
+# 小問題
+## Signature is unknown trust
+如果太久沒更新ArchLinux就有可能這樣。 <br>
+```bash
+sudo pacman -Syu && pacman-key --refresh-keys 
+```
+
+## Unable to lock database
+因為db.lck鎖定了pacman的數據庫，所以解法就是直接把db.lck刪了。 <br>
+```bash
+sudo rm /var/lib/pacman/db.lck
+```
+
 # 結尾
 剛安裝好系統進到Plasma時你一定會想說怎麼那麼醜，此時就是進設定調設定的快樂時間了，但那是之後文章的部分了。 <br>
 如果還是不知道怎麼裝ArchLinux的話可以去試試看[Endeavouros](https://endeavouros.com/)，Endeavouros簡單來說就是有GUI安裝介面的ArchLinux而已。 <br>
