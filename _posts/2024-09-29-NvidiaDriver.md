@@ -10,7 +10,7 @@ description: 在ArchLinux上安裝nvidia驅動
 ## DKMS版驅動安裝
 DKMS版的驅動會在核心更新時自動編譯。 <br>
 ```bash
-sudo pacman -Syyu
+sudo pacman -Syu
 sudo pacman -S nvidia-dkms nvidia-utils linux-headers
 ```
 

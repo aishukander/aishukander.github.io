@@ -12,7 +12,7 @@ Nvidia Prime是一種允許在Linux系統上使用混合GPU的技術，可在需
 # 安裝
 ## 基於[ArchLinux](https://archlinux.org/)的發行版的安裝方式
 ```bash
-sudo pacman -Syyu
+sudo pacman -Syu
 sudo pacman -S nvidia-prime
 ```
 
