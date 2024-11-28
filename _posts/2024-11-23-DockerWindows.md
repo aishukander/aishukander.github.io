@@ -76,7 +76,7 @@ services:
 docker compose -f Docker-Windows.yml up
 ```
 
-等待出現<span style="font-weight: bold; font-size: 1.2em;">localhost:8086</span>確定沒問題後Ctrl+C關閉compose。 <br>
+等待出現 <span style="font-weight: bold; font-size: 1.2em;">localhost:8086</span> 確定沒問題後Ctrl+C關閉compose。 <br>
 加入-d參數來讓compose在後台掛起。 <br>
 ```bash
 docker compose -f Docker-Windows.yml up -d
