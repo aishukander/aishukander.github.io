@@ -2,7 +2,7 @@
 title: DockerWindows
 date: 2024-11-23 13:53 +0800
 categories: [教學]
-tags: [Linux, Windows, Docker]
+tags: [Linux, Windows, Docker, 虛擬化]
 description: 在Docker裡運行Windows
 ---
 
