@@ -41,12 +41,12 @@ envycontrol --query
 ```
 
 ## 使用[Optimus GPU Switcher](https://github.com/enielrodriguez/optimus-gpu-switcher)於plasma上切換
-## 先使用AUR安裝[Optimus GPU Switcher](https://github.com/enielrodriguez/optimus-gpu-switcher)(需要[yay](/posts/Yay))
+## 從AUR安裝[Optimus GPU Switcher](https://github.com/enielrodriguez/optimus-gpu-switcher)(需要[yay](/posts/Yay))
 ```bash
 yay -S plasma6-applets-optimus-gpu-switcher-git
 ```
 
-## 使用[Discove](https://apps.kde.org/zh-tw/discover/)安裝
+## 從[Discove](https://apps.kde.org/zh-tw/discover/)安裝
 啟動Discove後 > Plasma Addons > Plasma Widgets 然後找到Optimus GPU Switcher for KDE 6。 <br>
 
 ## Optimus GPU Switcher的切換方式
