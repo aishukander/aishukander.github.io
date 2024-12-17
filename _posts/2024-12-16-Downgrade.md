@@ -9,6 +9,9 @@ description: 使用Downgrade降級特定程式
 # 安裝與使用
 ## 在Archlinux上安裝
 從AUR上下載，需要[yay](/posts/Yay)。 <br>
+```bash
+yay -S downgrade
+```
 
 ## 使用
 ```bash
