@@ -2,7 +2,7 @@
 title: Downgrade
 date: 2024-12-16 20:46 +0800
 categories: [教學]
-tags: [Linux, Pacman, AUR, Flatpak]
+tags: [ArchLinux, Pacman, AUR, Flatpak]
 description: 使用Downgrade降級特定程式
 ---
 
