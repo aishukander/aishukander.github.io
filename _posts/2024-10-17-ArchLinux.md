@@ -20,7 +20,15 @@ description: 安裝ArchLinux系統。
 
 # 使用archinstall安裝系統
 把隨身碟插上電腦後讓電腦從隨身碟啟動，並選擇ArchLinux後開機。 <br>
-開機完成後輸入以下指令。 <br>
+
+## 如果要使用WiFi
+```bash
+iwctl station wlan0 connect <ssid>
+iwctl station wlan0 show
+```
+
+## 啟動ArchInstall
+完成後輸入以下指令。 <br>
 ```bash
 archinstall
 ```
