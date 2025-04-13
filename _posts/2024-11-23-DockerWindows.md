@@ -9,8 +9,8 @@ description: 在Docker裡運行Windows
 # 安裝和使用
 ## 安裝Docker、Docker-Compose、usbutils
 ```bash
-sudo pacman -Syu
-sudo pacman -S docker docker-compose usbutils
+sudo pacman -Syu --noconfirm
+sudo pacman -S docker docker-compose usbutils --noconfirm
 ```
 
 ## 安裝Remmina

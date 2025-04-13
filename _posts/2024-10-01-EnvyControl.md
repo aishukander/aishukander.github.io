@@ -13,7 +13,7 @@ integrated為只開啟內顯的模式，nvidia為使用nvidia獨顯的模式，h
 # 安裝
 ## 基於[ArchLinux](https://archlinux.org/)的發行版的安裝方式(需要[yay](/posts/Yay))
 ```bash
-yay -S envycontrol
+yay -S envycontrol --noconfirm
 ```
 
 # 切換方式
@@ -43,7 +43,7 @@ envycontrol --query
 ## 使用[Optimus GPU Switcher](https://github.com/enielrodriguez/optimus-gpu-switcher)於plasma上切換
 ## 從AUR安裝[Optimus GPU Switcher](https://github.com/enielrodriguez/optimus-gpu-switcher)(需要[yay](/posts/Yay))
 ```bash
-yay -S plasma6-applets-optimus-gpu-switcher-git
+yay -S plasma6-applets-optimus-gpu-switcher-git --noconfirm
 ```
 
 ## 從[Discove](https://apps.kde.org/zh-tw/discover/)安裝

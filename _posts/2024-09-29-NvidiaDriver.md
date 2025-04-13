@@ -10,8 +10,8 @@ description: 在ArchLinux上安裝nvidia驅動
 ## DKMS版驅動安裝
 DKMS版的驅動會在核心更新時自動編譯。 <br>
 ```bash
-sudo pacman -Syu
-sudo pacman -S nvidia-dkms nvidia-utils linux-headers
+sudo pacman -Syu --noconfirm
+sudo pacman -S nvidia-dkms nvidia-utils linux-headers --noconfirm
 ```
 
 在 <span style="font-weight: bold; font-size: 1.2em;">重開機後</span> 使用lspci來確定驅動安裝完成。 <br>
@@ -26,7 +26,7 @@ sudo lspci -k | grep -A 2 -i "NVIDIA"
 ## nvtop安裝
 如果想要查看顯卡使用率可以安裝該程式。
 ```bash
-sudo pacman -S nvtop
+sudo pacman -S nvtop --noconfirm
 ```
 
 安裝完成後可於終端機輸入 <span style="font-weight: bold; font-size: 1.2em;">nvtop</span> 來啟動該程式。 <br>

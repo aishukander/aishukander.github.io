@@ -10,7 +10,7 @@ description: 使用Downgrade降級特定程式
 ## 在Archlinux上安裝
 從AUR上下載，需要[yay](/posts/Yay)。 <br>
 ```bash
-yay -S downgrade
+yay -S downgrade --noconfirm
 ```
 
 ## 使用
